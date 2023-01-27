@@ -1,5 +1,3 @@
-package LAB_1;
-
 import java.util.*;
 
 public class LAB_1 {
