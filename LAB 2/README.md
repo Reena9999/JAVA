@@ -20,7 +20,8 @@ The menu-driven program has to be made with the help of a do-while loop and swit
 *Description*  
 
 *Flow Chart*  
-![Alt text](https://drive.google.com/file/d/10QCVWwcu1iCo3UkAC2IKQ6EsBV-RJ9_O/view?usp=share_link "a title")
+
+![FlowChart drawio](https://user-images.githubusercontent.com/118504536/217487218-9f25e5eb-499f-4202-8f0f-c255c4792a20.png)
 
 
 **SAMPLE OUTPUT**
