@@ -1,9 +1,13 @@
 **SOLUTION**  
 *Description*  
+There are four function:  
+1. *readName*: adds a new name to the array. Before adding the name to the array, the function checks if the name already exists in the array. If it is contained in the array, it will not add the new name to the array.  
+2. *searchName*: the function performs a simple linear search for the name. It has conditions checking if the array is empty and displays appropriate errors.    
+3. *removeName*: the function performs a simple linear search. When we find the name we are looking for, all value succeeding that value is shifted to the left and the last value is made null. This is done to remove the name we are looking for and not leave a null value while doing so.
+4. *displayName*: display elements of the elements
 
 *Flow Chart*  
 ![FlowChart drawio (1)](https://user-images.githubusercontent.com/118504536/217501264-a3011f18-e43d-47c2-accf-32f9739f51d6.png)
-
 
 
 **SAMPLE OUTPUT**
