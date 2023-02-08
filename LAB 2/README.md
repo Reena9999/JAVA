@@ -26,66 +26,67 @@ The menu-driven program has to be made with the help of a do-while loop and swit
 
 **SAMPLE OUTPUT**
 --------------------------------------------------------------------------------------------------------------------
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
 Enter your choice: 5
-Invalid Input
-Enter y to continue process: n
+Invalid Input    
+Enter y to continue process: n  
+
 --------------------------------------------------------------------------------------------------------------------
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 1
-Enter the name you wish to add: Reena
-Enter y to continue process: y
+Enter your choice: 1  
+Enter the name you wish to add: Reena  
+Enter y to continue process: y  
 
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 1
-Enter the name you wish to add: Meena
-Enter y to continue process: y
+Enter your choice: 1  
+Enter the name you wish to add: Meena  
+Enter y to continue process: y  
 
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 1
-Enter the name you wish to add: reena
+Enter your choice: 1  
+Enter the name you wish to add: reena  
 
-The name already exists. Cannot add name to the list.
+The name already exists. Cannot add name to the list.  
 
-Enter y to continue process: y
+Enter y to continue process: y  
 
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 1
-Enter the name you wish to add: Noori
-Enter y to continue process: y
+Enter your choice: 1  
+Enter the name you wish to add: Noori  
+Enter y to continue process: y  
 
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.  
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 4
+Enter your choice: 4  
 
 ====================================================
                 Current List of Names
@@ -130,10 +131,11 @@ Enter:
 Enter your choice: 4
 
 ====================================================
-                Current List of Names
+                Current List of Names 
 ====================================================
 Reena
 Meena
 
 Enter y to continue process: n
+
 --------------------------------------------------------------------------------------------------------------------
