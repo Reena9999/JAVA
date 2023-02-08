@@ -1,8 +1,6 @@
-package LAB_1;
-
 import java.util.*;
 
-public class LAB_1 {
+public class lab1 {
     public static void main(String args[]) {
         // creating the scanner object to read data from the user
         Scanner sc = new Scanner(System.in);
@@ -52,8 +50,7 @@ public class LAB_1 {
 
         // validating the user's input
         while (true) {
-            if (s.equals("andhra pradesh") 
-                    || s.equals("karnataka")
+            if ( s.equals("andhra pradesh") || s.equals("karnataka")
                     || s.equals("kerala")
                     || s.equals("tamil nadu")
                     || s.equals("goa")
