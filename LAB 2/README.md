@@ -30,7 +30,7 @@ Enter:
  2 to search for a name in the list.
  3 to remove a name from the list.
  4 to display all the names in the list.
-
+ 
 Enter your choice: 5
 Invalid Input
 Enter y to continue process: n
