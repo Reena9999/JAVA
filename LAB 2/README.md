@@ -115,12 +115,12 @@ Enter:
 Enter your choice: 4
 
 ====================================================
-                Current List of Names 
+                Current List of Names   
                 
 ====================================================
-Reena
-Meena
+Reena  
+Meena  
 
-Enter y to continue process: n
+Enter y to continue process: n  
 
 --------------------------------------------------------------------------------------------------------------------
