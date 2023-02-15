@@ -15,8 +15,8 @@ The contains four main functions:
 *create a global variable 'length' that store the total number of enter elements   
   
 *FUNCTION readArray()*:     
-\quad* create an integer array of a large size  
-\quad* create an infinte loop  
+\quad * create an integer array of a large size  
+\quad * create an infinte loop  
 \tab\tab*read user input  
 \tab\tab* check if the input is equal to 'exit'.   
 \tab\tab\tabIf it is:    
