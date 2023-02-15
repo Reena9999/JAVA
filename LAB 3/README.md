@@ -46,6 +46,7 @@ The contains four main functions:
     *return the value in 'array' corresponding to the maximum count value obtained.  
 
 **FLOW CHART**  
+![lab2 drawio](https://user-images.githubusercontent.com/118504536/219005942-5941a714-a15c-4926-ba6c-4e41dd24d9d5.png)
 
 **SAMPLE OUTPUT**    
 
