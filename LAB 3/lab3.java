@@ -35,10 +35,10 @@ public class lab3 {
                             break;
 
                         default:
-                            System.out.println("\n"+ANSI_RED_BACKGROUND+"Invalid Input!"+ANSI_RESET+"\n\n");
+                            System.out.println("\n"+ANSI_RED_BACKGROUND+"----------------------------\nInvalid Input!\n----------------------------\n"+ANSI_RESET+"\n\n");
                     }
                 } catch (NumberFormatException e) {
-                    System.out.print("\n"+ANSI_RED_BACKGROUND+"Enter only numbers"+ANSI_RESET+"\n\n");
+                    System.out.print("\n"+ANSI_RED_BACKGROUND+"----------------------------\nEnter only numbers\n----------------------------\n"+ANSI_RESET+"\n\n");
                 }
             }
 
