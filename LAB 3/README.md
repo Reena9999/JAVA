@@ -1,134 +1,141 @@
 **QUESTION**  
-Create a java program that performs the following operation:  
-The program should collect an integer array from the user  
-After the array is entered, you need to create a menu of items 
-Find the Mean Value  
-Find the Median Value  
-Find the Mode Value   
+Create a java program that performs the following operation:    
+The program should collect an integer array from the user    
+After the array is entered, you need to create a menu of items   
+Find the Mean Value    
+Find the Median Value    
+Find the Mode Value     
 
-From the user-given array.  
+From the user-given array.    
 The program should have a minimum of 3 functions apart from the main function; each of the functions implements the Mean, Median, and Mode computation by accepting the array user has entered as a parameter and returning the value as a result. From the main method, you will display the result.
 
-**PROGRAM PSEUDO CODE**   
-The contains four main functions: 
+**PROGRAM PSEUDO CODE**     
+The contains four main functions:   
+  
+*create a global variable 'length' that store the total number of enter elements   
+  
+*FUNCTION readArray()*:   
+    * create an integer array of a large size  
+    * create an infinte loop  
+        *read user input  
+        * check if the input is equal to 'exit'.   
+            If it is:    
+                -set 'length' as the total number of times you executed the infinte loop    
+                -exit the infinite loop     
+            otherwise:    
+                -continue    
+        *check if the input is an integer.   
+            If it is:    
+                -add value to your array  
+            otherwise:    
+                -print an appropriate error message.    
 
-*create a global variable 'length' that store the total number of enter elements 
+*FUNCTION Mean(int array[])*:  
+    *iterate through the non-null elements of the array recieved through the parameters  
+    *add the iterating values    
+    *return the total sum divided by 'length'  
 
-*FUNCTION readArray()*: 
-    * create an integer array of a large size
-    * create an infinte loop
-        *read user input
-        * check if the input is equal to 'exit'. 
-            If it is:  
-                -set 'length' as the total number of times you executed the infinte loop  
-                -exit the infinite loop   
-            otherwise:  
-                -continue  
-        *check if the input is an integer. 
-            If it is:  
-                -add value to your array
-            otherwise:  
-                -print an appropriate error message.  
+*FUNCTION Median(int array[])*:  
+    *sort the array recieved through the parameters  
+    *return the middle value of the array ('length'/2)    
 
-*FUNCTION Mean(int array[])*:
-    *iterate through the non-null elements of the array recieved through the parameters
-    *add the iterating values
-    *return the total sum divided by 'length'
+*FUNCTION Mode(int array[])*:  
+    *create an array countArray[] with size equal to 'length'  
+    *iterate through the value of the array recieved through the parameters and count how many times that value occurs in the array. Store the count in countArray.  
+    *find the maximum count value in countArray  
+    *return the value in 'array' corresponding to the maximum count value obtained.    
 
-*FUNCTION Median(int array[])*:
-    *sort the array recieved through the parameters
-    *return the middle value of the array ('length'/2)  
+**FLOW CHART**    
+![lab2 drawio](https://user-images.githubusercontent.com/118504536/219005942-5941a714-a15c-4926-ba6c-4e41dd24d9d5.png)  
 
-*FUNCTION Mode(int array[])*:
-    *create an array countArray[] with size equal to 'length'
-    *iterate through the value of the array recieved through the parameters and count how many times that value occurs in the array. Store the count in countArray.
-    *find the maximum count value in countArray
-    *return the value in 'array' corresponding to the maximum count value obtained.  
+**SAMPLE OUTPUT**      
 
-**FLOW CHART**  
-![lab2 drawio](https://user-images.githubusercontent.com/118504536/219005942-5941a714-a15c-4926-ba6c-4e41dd24d9d5.png)
+Enter exit when cued to enter values to stop entering values in the array.    
+   
+Enter a value: 1      
 
-**SAMPLE OUTPUT**    
+Enter a value: 2    
 
-Enter exit when cued to enter values to stop entering values in the array.  
+Enter a value: 2    
 
-Enter a value: 1    
+Enter a value: 3    
 
-Enter a value: 2  
+Enter a value: 0    
 
-Enter a value: 2  
+Enter a value: 7    
 
-Enter a value: 3  
+Enter a value: r   
 
-Enter a value: 0  
-
-Enter a value: 7  
-
-Enter a value: r  
-----------------------------  
-     Enter only numbers  
-----------------------------  
-
-
-Enter a value: 5  
-
-Enter a value: 7  
-
-Enter a value: exit  
+----------------------------    
+     Enter only numbers    
+----------------------------    
 
 
-ENTER EXIT TO STOP EXECUTING THIS PROGRAM  
+Enter a value: 5    
 
-Enter  
- 1 to find the mean.  
- 2 to find the median.  
- 3 to find the mode.  
-1  
-----------------------------  
-         Mean: 3.38  
-----------------------------  
+Enter a value: 7    
 
-Enter  
- 1 to find the mean.  
- 2 to find the median.  
- 3 to find the mode.  
-2  
-----------------------------  
-         Median: 2  
-----------------------------  
+Enter a value: exit    
+
+
+ENTER EXIT TO STOP EXECUTING THIS PROGRAM    
+
+Enter    
+ 1 to find the mean.    
+ 2 to find the median.    
+ 3 to find the mode.      
+1    
+
+----------------------------    
+         Mean: 3.38      
+----------------------------      
 
 Enter    
  1 to find the mean.    
  2 to find the median.    
  3 to find the mode.    
-3      
-----------------------------    
-         Mode: 2    
-----------------------------    
+2    
 
-Enter  
- 1 to find the mean.  
- 2 to find the median.  
- 3 to find the mode.  
-4  
-----------------------------  
-        Invalid Input!  
-----------------------------   
+----------------------------    
+         Median: 2    
+----------------------------    
+ 
+Enter      
+ 1 to find the mean.      
+ 2 to find the median.      
+ 3 to find the mode.      
+3        
 
-Enter  
- 1 to find the mean.  
- 2 to find the median.  
- 3 to find the mode.  
-reena  
-----------------------------  
-     Enter only numbers  
-----------------------------  
+----------------------------      
+         Mode: 2      
+----------------------------      
 
 Enter    
- 1 to find the mean.   
+ 1 to find the mean.    
  2 to find the median.    
  3 to find the mode.    
- exit    
+4    
+
 ----------------------------    
-            BYE!    
+        Invalid Input!    
+----------------------------     
+
+Enter    
+ 1 to find the mean.    
+ 2 to find the median.    
+ 3 to find the mode.    
+reena    
+
 ----------------------------    
+     Enter only numbers    
+----------------------------    
+
+Enter      
+ 1 to find the mean.     
+ 2 to find the median.      
+ 3 to find the mode.      
+ exit      
+ 
+----------------------------      
+            BYE!      
+----------------------------      
