@@ -28,7 +28,7 @@ The contains four main functions:
 \tab\tab\tabIf it is:    
 \tab\tab\tab\tab-add value to your array  
 \tab\tab\tabotherwise:    
-\tab\tab\tab\tab-print an appropriate error message.    
+&emsp;-print an appropriate error message.    
 
 *FUNCTION Mean(int array[])*:  
 \tab*iterate through the non-null elements of the array recieved through the parameters  
