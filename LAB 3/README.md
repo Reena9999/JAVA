@@ -14,36 +14,36 @@ The contains four main functions:
   
 *create a global variable 'length' that store the total number of enter elements   
   
-*FUNCTION readArray()*:   
-    * create an integer array of a large size  
-    * create an infinte loop  
-        *read user input  
-        * check if the input is equal to 'exit'.   
-            If it is:    
-                -set 'length' as the total number of times you executed the infinte loop    
-                -exit the infinite loop     
-            otherwise:    
-                -continue    
-        *check if the input is an integer.   
-            If it is:    
-                -add value to your array  
-            otherwise:    
-                -print an appropriate error message.    
+*FUNCTION readArray()*:     
+\tab* create an integer array of a large size  
+\tab* create an infinte loop  
+\tab\tab*read user input  
+\tab\tab* check if the input is equal to 'exit'.   
+\tab\tab\tabIf it is:    
+\tab\tab\tab\tab-set 'length' as the total number of times you executed the infinte loop    
+\tab\tab\tab\tab-exit the infinite loop     
+\tab\tab\tabotherwise:    
+\tab\tab\tab\tab-continue    
+\tab\tab*check if the input is an integer.   
+\tab\tab\tabIf it is:    
+\tab\tab\tab\tab-add value to your array  
+\tab\tab\tabotherwise:    
+\tab\tab\tab\tab-print an appropriate error message.    
 
 *FUNCTION Mean(int array[])*:  
-    *iterate through the non-null elements of the array recieved through the parameters  
-    *add the iterating values    
-    *return the total sum divided by 'length'  
+\tab*iterate through the non-null elements of the array recieved through the parameters  
+\tab*add the iterating values      
+\tab*return the total sum divided by 'length'  
 
 *FUNCTION Median(int array[])*:  
-    *sort the array recieved through the parameters  
-    *return the middle value of the array ('length'/2)    
+\tab*sort the array recieved through the parameters    
+\tab*return the middle value of the array ('length'/2)    
 
 *FUNCTION Mode(int array[])*:  
-    *create an array countArray[] with size equal to 'length'  
-    *iterate through the value of the array recieved through the parameters and count how many times that value occurs in the array. Store the count in countArray.  
-    *find the maximum count value in countArray  
-    *return the value in 'array' corresponding to the maximum count value obtained.    
+\tab*create an array countArray[] with size equal to 'length'  
+\tab*iterate through the value of the array recieved through the parameters and count how many times that value occurs in the array. Store the count in countArray.  
+\tab*find the maximum count value in countArray  
+\tab*return the value in 'array' corresponding to the maximum count value obtained.    
 
 **FLOW CHART**    
 ![lab2 drawio](https://user-images.githubusercontent.com/118504536/219005942-5941a714-a15c-4926-ba6c-4e41dd24d9d5.png)  
