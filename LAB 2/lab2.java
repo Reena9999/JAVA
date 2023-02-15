@@ -151,7 +151,7 @@ public class lab2 {
     // function to display all the Names in the array
     public static void displayName() {
         System.out.println("\n====================================================");
-        System.out.println("                Current List of Names               ");
+        System.out.println("                Current List of Names                 ");
         System.out.println("====================================================");
         for (int i = 0; i < 50; i++) {
             //checking if the array is empty

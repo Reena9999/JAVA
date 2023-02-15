@@ -107,16 +107,16 @@ Enter:
  4 to display all the names in the list.
 
 Enter your choice: 3
-Enter the name you wish to remove: noori
-Enter y to continue process: y
+Enter the name you wish to remove: noori  
+Enter y to continue process: y  
 
-Enter:
- 1 for Entering a name in the list.
- 2 to search for a name in the list.
- 3 to remove a name from the list.
- 4 to display all the names in the list.
+Enter:  
+ 1 for Entering a name in the list.  
+ 2 to search for a name in the list.   
+ 3 to remove a name from the list.  
+ 4 to display all the names in the list.  
 
-Enter your choice: 4
+Enter your choice: 4  
 
 ====================================================  
                 Current List of Names   
