@@ -42,7 +42,7 @@ Enter amount to withdraw: 300
                 !!!TRANSACTION SUCCESSFUL!!!!  
 
 AX00943948502  
-Reena 
+Reena   
 \-------------------------------------------------------      
                  Withdrawal Summary      
 \-------------------------------------------------------    
