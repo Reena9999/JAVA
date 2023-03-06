@@ -22,7 +22,7 @@ Enter amount to deposit: 400
 AX00943948502      
 Reena      
 \-------------------------------------------------------    
-\space \space \space                 Deposit Summary    
+\space\space\spaceDeposit Summary    
 \-------------------------------------------------------    
 Amount          |                       400.0 Cr.    
 \-------------------------------------------------------    
