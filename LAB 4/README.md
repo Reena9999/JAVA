@@ -1,6 +1,6 @@
 
 
-*OUTPUT*  
+**OUTPUT**  
 Enter your full Name: Reena  
 
 Enter your intial amount you'd like to open your account with: 5000  
@@ -17,11 +17,11 @@ Enter:
 
 Enter amount to deposit: 400  
 
-                !!!TRANSACTION SUCCESSFUL!!!!  
-
-AX00943948502  
-Reena  
--------------------------------------------------------  
+                !!!TRANSACTION SUCCESSFUL!!!!    
+  
+AX00943948502      
+Reena      
+-------------------------------------------------------    
                  Deposit Summary  
 -------------------------------------------------------  
 Amount          |                       400.0 Cr.  
@@ -41,10 +41,10 @@ Enter amount to withdraw: 300
 
                 !!!TRANSACTION SUCCESSFUL!!!!  
 
-AX00943948502    
-Reena  
--------------------------------------------------------  
-                 Withdrawal Summary  
+AX00943948502
+Reena 
+-------------------------------------------------------      
+                 Withdrawal Summary    
 -------------------------------------------------------  
 Amount          |                       300.0 Dr.  
 -------------------------------------------------------  
