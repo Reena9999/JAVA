@@ -1,6 +1,6 @@
 
 
-*OUTPUT*
+*OUTPUT*  
 Enter your full Name: Reena  
 
 Enter your intial amount you'd like to open your account with: 5000  
