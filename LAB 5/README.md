@@ -27,8 +27,20 @@ Note: Make use of functions to implement the menu options
 Extension (Optional):  
 Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.  
 
-**FLOWCHART**    
-![main](https://user-images.githubusercontent.com/118504536/225352002-c8e5f9e9-c7d8-4d58-8a7e-26a50a05456f.png)
+**FLOWCHART**   
+Main Flow of control  
+
+![main](https://user-images.githubusercontent.com/118504536/225352002-c8e5f9e9-c7d8-4d58-8a7e-26a50a05456f.png)  
+
+Functions control flow:  
+1. AddStudent()  
+![addStudent](https://user-images.githubusercontent.com/118504536/225360660-061c4a94-92e0-4384-b5bc-b758c95a14fa.png)
+
+3. SearchStudent()  
+![SearchStudent](https://user-images.githubusercontent.com/118504536/225360728-c373b573-0bb2-4941-af47-1d09036ab312.png)
+
+5. DisplayStudent() 
+![DisplayStudent](https://user-images.githubusercontent.com/118504536/225360780-6190634e-54e3-4dcf-afd7-5296dc9b9c91.png)
 
 
 **SAMPLE OUTPUT**  
