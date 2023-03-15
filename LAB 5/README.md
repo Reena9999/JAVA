@@ -39,7 +39,7 @@ Functions control flow:
 3. SearchStudent()  
 ![SearchStudent](https://user-images.githubusercontent.com/118504536/225360728-c373b573-0bb2-4941-af47-1d09036ab312.png)
 
-5. DisplayStudent() 
+5. DisplayStudent()     
 ![DisplayStudent](https://user-images.githubusercontent.com/118504536/225360780-6190634e-54e3-4dcf-afd7-5296dc9b9c91.png)
 
 
