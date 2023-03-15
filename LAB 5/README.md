@@ -27,7 +27,9 @@ Note: Make use of functions to implement the menu options
 Extension (Optional):  
 Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.  
 
-**FLOWCHART**  
+**FLOWCHART**    
+![main](https://user-images.githubusercontent.com/118504536/225352002-c8e5f9e9-c7d8-4d58-8a7e-26a50a05456f.png)
+
 
 **SAMPLE OUTPUT**  
 \=========================================================  
