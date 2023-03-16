@@ -60,50 +60,50 @@ Validating Function:
 
 **SAMPLE OUTPUT**  
 \=========================================================  
-                          WELCOME  
+\                          WELCOME    
 \=========================================================  
-                   Enter Exit to execution  
+\                   Enter Exit to execution    
+\---------------------------------------------------------    
+\Enter  
+\1. To Add a student  
+\2. To search of a student  
+\3. Display all students  
+\1      
+\---------------------------------------------------------    
+\Enter your name: Reena  
+\Enter your register number: 22122144  
+\Enter your email id: reena.a@msds.christuniveristy.in  
+\  
+\Invalid domain in email  
+\
+\Enter your email id: reena.a@msds.christuniversity.in   
+\Enter your phone number: 95335588254  
+\
+\Required 10 digits in the phone number  
+\
+\Enter your phone number: 9535588254   
+\Enter your class: 2 MSDS B  
+\Enter your department: Data Science  
 \---------------------------------------------------------  
-Enter  
-1. To Add a student  
-2. To search of a student  
-3. Display all students  
-1  
-\---------------------------------------------------------  
-Enter your name: Reena  
-Enter your register number: 22122144  
-Enter your email id: reena.a@msds.christuniveristy.in  
-  
-Invalid domain in email  
-
-Enter your email id: reena.a@msds.christuniversity.in   
-Enter your phone number: 95335588254  
-
-Required 10 digits in the phone number  
-
-Enter your phone number: 9535588254   
-Enter your class: 2 MSDS B  
-Enter your department: Data Science  
-\---------------------------------------------------------  
-Enter 1 if you wish to store details in a file:  
-1
-\---------------------------------------------------------  
-Enter  
-1. To Add a student  
-2. To search of a student  
-3. Display all students  
-3  
-\---------------------------------------------------------  
+\Enter 1 if you wish to store details in a file:  
+\1  
+\---------------------------------------------------------    
+\Enter  
+\1. To Add a student  
+\2. To search of a student  
+\3. Display all students  
+\3    
+\---------------------------------------------------------    
+\=========================================================    
+\          All students in our database:  
 \=========================================================  
-          All students in our database:  
+\Reena  
 \=========================================================  
-Reena  
-\=========================================================  
-Enter  
-1. To Add a student  
-2. To search of a student  
-3. Display all students  
-exit  
+\Enter  
+\1. To Add a student  
+\2. To search of a student  
+\3. Display all students  
+\exit  
 \---------------------------------------------------------  
-                         BYE  
+\                         BYE  
 \---------------------------------------------------------  
