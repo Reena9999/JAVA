@@ -36,12 +36,27 @@ Functions control flow:
 1. AddStudent() represented as AS connector  
 ![addStudent](https://user-images.githubusercontent.com/118504536/225360660-061c4a94-92e0-4384-b5bc-b758c95a14fa.png)
 
-3. SearchStudent() represented as SS connector  
+2. SearchStudent() represented as SS connector  
 ![SearchStudent](https://user-images.githubusercontent.com/118504536/225360728-c373b573-0bb2-4941-af47-1d09036ab312.png)
 
-5. DisplayStudent() represented as DS connector  
+3. DisplayStudent() represented as DS connector  
 ![DisplayStudent](https://user-images.githubusercontent.com/118504536/225360780-6190634e-54e3-4dcf-afd7-5296dc9b9c91.png)
 
+Validating Function:  
+1. isDigit() represented as ID  
+![isDigit](https://user-images.githubusercontent.com/118504536/225515363-fe6025e2-ef06-4eec-b786-908af1a9ec36.png)
+  
+2. checkReg() represented as CR    
+![CheckRegisterNum](https://user-images.githubusercontent.com/118504536/225515971-df8dfe5d-f3f0-407b-b3ab-af6c20afe318.png)  
+
+3. checkEmail() represented as CE   
+![CheckEmail](https://user-images.githubusercontent.com/118504536/225516061-68ecf787-fd63-4b87-a53c-973c75274152.png)
+
+4. checkPhone() represented as CP  
+![CheckPhone](https://user-images.githubusercontent.com/118504536/225516111-3bc53b8f-5ae7-4bfc-991b-e6eb01c3db92.png)
+
+5. checkClass() represented as CC  
+![checkClass](https://user-images.githubusercontent.com/118504536/225516148-2ac711a8-f67d-4350-902e-8c06d7dbf53f.png)
 
 **SAMPLE OUTPUT**  
 \=========================================================  
