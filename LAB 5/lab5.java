@@ -319,7 +319,7 @@ public class lab5 {
         //retreiving the semester 
         //class is written as semester-course-section
         String a=clss.substring(0, 1);
-        if (a.equalsIgnoreCase("1") || a.equalsIgnoreCase("2") || a.equalsIgnoreCase("3") || a.equalsIgnoreCase("4")) {
+        if (Integer.parseInt(a) <= 4 && Integer.parseInt(a) >=1) {
             return true;
         }
         //displaying an appropriate error message
