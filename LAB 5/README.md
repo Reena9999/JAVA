@@ -12,14 +12,14 @@ The class will have a constructor to initialize the values of the Student and a 
 In the main-method class, create an array of Student Class to hold maximum details of 100 Students.  
 In the menu-driven program, the menu options will have  
 
-\underline {Add a student}  
+_Add a student_    
 Adds the details of 1 student to the array of Student  
 
-\underline{Search for a student}  
+_Search for a student_   
 Search for the details of a student from the array of Student  
 (Optional) Searching can be done with Name & Register Number  
 
-\underline{Display all students}    
+_Display all students_      
 Displays the details of all students  
 
 Note: Make use of functions to implement the menu options  
