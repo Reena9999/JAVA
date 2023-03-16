@@ -58,9 +58,7 @@ Validating Function:
 5. checkClass() represented as CC  
 ![checkClass](https://user-images.githubusercontent.com/118504536/225516148-2ac711a8-f67d-4350-902e-8c06d7dbf53f.png)
 
-**SAMPLE OUTPUT**
-\documentclass{article}
-\begin{document}
+**SAMPLE OUTPUT**  
 \=========================================================  
                           WELCOME    
 \=========================================================  
@@ -109,4 +107,3 @@ exit
 \---------------------------------------------------------  
                          BYE  
 \---------------------------------------------------------  
-\end{document}
