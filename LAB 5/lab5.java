@@ -2,16 +2,16 @@ import java.util.*;
 import java.io.*;
 
 public class lab5 {
+
     //Creating arrays to store student regist numbers, name,email ids, phone number, class and the department
-    String[] RegisterNumber, StudentName, StudentEmail, StudentMobile, StudentClass, StudentDepartment;
+    lab5[] arr=new lab5[100] ;
+    String RegisterNumber,StudentName,StudentEmail,StudentMobile,StudentClass,StudentDepartment;
     //counter to maintain the number of students in the array
     int count = 0;
 
     //main function
     public static void main(String[] args) {
-        //creating an object of the class to call the functions
-        lab5 obj = new lab5();
-
+        lab5 obj=new lab5();
         //welcome message
         System.out.println("=========================================================");
         System.out.println("                          WELCOME");
@@ -25,7 +25,7 @@ public class lab5 {
         //infinte loop that stops executing when the user enters exit when prompted to enter a choice
         while (true) {
             //displaying available functions the user can perform
-            System.out.println("Enter\n1. To Add a student\n2. To search of a student\n3.Display all students");
+            System.out.println("Enter\n1. To Add a student\n2. To search of a student\n3. Display all students");
             String choice = sc.nextLine();
             System.out.println("---------------------------------------------------------");
 
@@ -72,13 +72,17 @@ public class lab5 {
     }
 
     //constructor to initialize the arrays that will be used throughout the program
-    lab5() {
-        RegisterNumber = new String[100];
-        StudentName = new String[100];
-        StudentEmail = new String[100];
-        StudentMobile = new String[100];
-        StudentClass = new String[100];
-        StudentDepartment = new String[100];
+    lab5(String reg,String name,String email,String phone,String clss, String dep) {
+        RegisterNumber = reg;
+        StudentName = name;
+        StudentEmail = email;
+        StudentMobile = phone;
+        StudentClass = clss;
+        StudentDepartment = dep;
+    }
+
+    lab5(){
+
     }
 
     //function that reads student details, validates the input and then adds it to the array
@@ -135,13 +139,8 @@ public class lab5 {
 
         //validating if there are less than 100 element to avoid IndexOutOfBound error
         if (count < 100) {
-            RegisterNumber[count] = reg;
-            StudentName[count] = name;
-            StudentEmail[count] = email;
-            StudentMobile[count] = phone;
-            StudentClass[count] = clss;
-            StudentDepartment[count] = department;
-
+            arr[count]=new lab5(reg,name,email,phone,clss,department);
+           
             //incrementing the count to indicate a new student has been added to the database
             count += 1;
 
@@ -190,7 +189,7 @@ public class lab5 {
         System.out.println("          All students in our database: ");
         System.out.println("=========================================================");
         for (int i = 0; i < count; i++) {
-            System.out.println(StudentName[i]);
+            System.out.println(arr[i].StudentName);
         }
         System.out.println("=========================================================\n");
 
@@ -200,8 +199,8 @@ public class lab5 {
     boolean searchStudent(String regNumber) {
         for (int i = 0; i < count; i++) {
             //condition to satisfy
-            if (RegisterNumber[i].equalsIgnoreCase(regNumber)) {
-                System.out.println(StudentName[i] + " is the student you are looking for");
+            if (arr[i].RegisterNumber.equalsIgnoreCase(regNumber)) {
+                System.out.println(arr[i].StudentName + " is the student you are looking for");
                 System.out.println("---------------------------------------------------------");
                 return true;
             }
@@ -209,7 +208,7 @@ public class lab5 {
         //message to display when the register number is not found
         System.out.println("\n"+regNumber + " is not found in the database");
         System.out.println("---------------------------------------------------------");
-        return true;
+        return false;
     }
 
     //function to check if there are digits in the name
