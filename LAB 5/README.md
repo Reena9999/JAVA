@@ -1,4 +1,3 @@
-\underline{science}  
 **QUESTION**  
 Create a student class, that will store the details of the Student  
 * Reg. No.  
@@ -13,14 +12,14 @@ The class will have a constructor to initialize the values of the Student and a 
 In the main-method class, create an array of Student Class to hold maximum details of 100 Students.  
 In the menu-driven program, the menu options will have  
 
-_Add a student_    
+_**Add a student**_    
 Adds the details of 1 student to the array of Student  
 
-_Search for a student_   
+_**Search for a student**_   
 Search for the details of a student from the array of Student  
 (Optional) Searching can be done with Name & Register Number  
 
-_Display all students_      
+_**Display all students**_      
 Displays the details of all students  
 
 Note: Make use of functions to implement the menu options  
