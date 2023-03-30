@@ -8,10 +8,10 @@ Write a JAVA program that reads a file (text file) and finds the following detai
 6. Least FIve repeated characters and their count. 
  
 Note:  
-Use the file attached.  
-Use functions to implement the six functions asked.  
-Pass the file content to the functions and return the values accordingly.  
-No Global variables are allowed to be used.  
+* Use the file attached.  
+* Use functions to implement the six functions asked.  
+* Pass the file content to the functions and return the values accordingly.  
+* No Global variables are allowed to be used.  
 
 Additional Task [htmlFile.txt]:  
 You have been given an HTML file; from the HTML File, identify the Top categories, display it to the user, and write the content to the file.  
