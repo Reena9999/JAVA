@@ -1,7 +1,0 @@
-**QUESTION**  
-
-**FLOWCHART**  
-![Blank diagram](https://user-images.githubusercontent.com/118504536/228752884-c3774eb3-8511-44e8-b2d0-78ac37a3f0bc.png)
-
-
-**SAMPLE OUTPUT**
