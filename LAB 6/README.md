@@ -30,7 +30,7 @@ RepeatingWords:
 ![4](https://user-images.githubusercontent.com/118504536/228767364-2df14772-83c8-4a4b-95a8-afeead376dc6.png)  
 
 RepeatingCharacters:     
-
+![Blank diagram](https://user-images.githubusercontent.com/118504536/228774238-f3e3a170-cbf0-4929-a691-e1f7fb73dca7.png)  
 
 **SAMPLE OUTPUT**   
 \---------------------------------------------  
