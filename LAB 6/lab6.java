@@ -12,39 +12,39 @@ public class lab6 {
                 int[][] vowelCount = countVowels(file);
 
                 System.out.println("\n---------------------------------------------");
-                System.out.println("\n\t\tVowel Count");
-                System.out.println("\n---------------------------------------------");
+                System.out.println("\t\tVowel Count");
+                System.out.println("---------------------------------------------");
 
                 display(vowelCount, 0);
-                System.out.println("\n---------------------------------------------");
+                System.out.println("---------------------------------------------");
 
                 int[][] digitCount = countDigits(file);
 
                 System.out.println("\n---------------------------------------------");
-                System.out.println("\n\t\tDigit Count");
-                System.out.println("\n---------------------------------------------");
+                System.out.println("\t\tDigit Count");
+                System.out.println("---------------------------------------------");
                 display(digitCount, 1);
-                System.out.println("\n---------------------------------------------");
+                System.out.println("---------------------------------------------");
 
                 int[][] topRepeatingCharacters = RepeatingCharacters(file);
 
                 System.out.println("\n---------------------------------------------");
-                System.out.println("\n\tMost occuring characters");
-                System.out.println("\n---------------------------------------------");
+                System.out.println("\tMost occuring characters");
+                System.out.println("---------------------------------------------");
                 for (int i = 0; i < 5; i++) {
                 System.out.println("\t\t"+(char) topRepeatingCharacters[0][i] + "\t:\t" +
                 topRepeatingCharacters[1][i]);
                 }
-                System.out.println("\n---------------------------------------------\n");
+                System.out.println("---------------------------------------------\n");
 
                 System.out.println("\n---------------------------------------------");
-                System.out.println("\n\tLeast occuring characters");
-                System.out.println("\n---------------------------------------------");
+                System.out.println("\tLeast occuring characters");
+                System.out.println("---------------------------------------------");
                 for (int i = 25; i >=20; i--) {
                 System.out.println("\t\t"+(char) topRepeatingCharacters[0][i] + "\t:\t" +
                 topRepeatingCharacters[1][i]);
                 }
-                System.out.println("\n---------------------------------------------\n");
+                System.out.println("---------------------------------------------\n");
 
                 RepeatingWords(file);
             }
