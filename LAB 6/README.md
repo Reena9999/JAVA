@@ -32,6 +32,9 @@ RepeatingWords:
 RepeatingCharacters:     
 ![Blank diagram](https://user-images.githubusercontent.com/118504536/228774238-f3e3a170-cbf0-4929-a691-e1f7fb73dca7.png)  
 
+Additional task flowchart:  
+![Blank diagram](https://user-images.githubusercontent.com/118504536/229729588-040d4eef-e72b-4429-9770-dfc065975fa8.png)  
+
 **SAMPLE OUTPUT**   
 \---------------------------------------------  
                 Vowel Count  
@@ -103,3 +106,17 @@ RepeatingCharacters:
         technological   :       1    
         continued       :       1  
 \---------------------------------------------  
+
+ADDITIONAL TASK OUTPUT:  
+
+Top ten categories:   
+Political Pulse  
+Mumbai News  
+Pune News  
+Bollywood News  
+India News  
+Lifestyle News   
+Mobile &amp; Tabs  
+Gadgets  
+Food &amp; Wine  
+Fitness  
