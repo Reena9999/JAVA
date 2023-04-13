@@ -42,6 +42,5 @@ public class FindCategories {
         for (int i=0;i<categories.length;i++){
                 System.out.println(categories[i]);
         }
-
     }
 }
