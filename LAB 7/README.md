@@ -22,6 +22,7 @@ With knowledge about where to stop and start  for each class, we extract the col
 Lastly, read the contents of the file a print it on the terminal.  
 
 # FLOWCHART  
+![Blank diagram](https://user-images.githubusercontent.com/118504536/231861954-39474c5e-08ab-4801-ac5c-16e4d03d5798.png)
 
 
 # OUTPUT  
