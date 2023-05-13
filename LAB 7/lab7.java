@@ -3,6 +3,18 @@ import java.util.*;
 
 public class lab7 {
     public static void main(String args[]) {
+        
+        //rest the output file 
+        try {
+            File file = new File("output.txt");
+            FileWriter writer = new FileWriter(file);
+
+            writer.write("");
+            writer.close();
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+        
         int count = 0;
         // variable to store the number of rows and columns in the csv file
         int rows = 0, columns = 0;
