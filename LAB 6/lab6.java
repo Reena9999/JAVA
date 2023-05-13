@@ -182,21 +182,21 @@ public class lab6 {
             wordCount[i] = count;
         }
 
-        System.out.println("\n---------------------------------------------\n");
-        System.out.println("\n\tFive most occurring Words");
-        System.out.println("\n---------------------------------------------\n");
+        System.out.println("\n---------------------------------------------");
+        System.out.println("\tFive most occurring Words");
+        System.out.println("---------------------------------------------\n");
         for (int i = 0; i < 5; i++) {
             System.out.println("\t"+wordsArray[i] + "\t:\t" + wordCount[i]);
         }
-        System.out.println("\n---------------------------------------------\n");
+        System.out.println("---------------------------------------------\n");
 
-        System.out.println("\n---------------------------------------------\n");
-        System.out.println("\n\tLeast five occurring Words");
-        System.out.println("\n---------------------------------------------\n");
+        System.out.println("\n---------------------------------------------");
+        System.out.println("\tLeast five occurring Words");
+        System.out.println("---------------------------------------------");
         for (int i = wordsArray.length-2; i> (wordsArray.length-7); i--) {
             System.out.println("\t"+wordsArray[i] + "\t:\t" + wordCount[i]);
         }
-        System.out.println("\n---------------------------------------------\n");
+        System.out.println("---------------------------------------------\n");
     }
 
     public static String[] uniqueWords(File file) {

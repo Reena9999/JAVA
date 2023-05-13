@@ -2,7 +2,21 @@ import java.io.*;
 import java.util.*;
 
 public class lab7 {
+
     public static void main(String args[]) {
+        
+        //reset the output file 
+        try {
+            File file = new File("output.txt");
+            FileWriter writer = new FileWriter(file);
+
+            writer.write("");
+            writer.close();
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+
+
         int count = 0;
         // variable to store the number of rows and columns in the csv file
         int rows = 0, columns = 0;
@@ -90,14 +104,15 @@ public class lab7 {
         float[] PetalLengthCm = new float[(indexes[indexCount])];
         float[] PetalWidthCm = new float[(indexes[indexCount])];
 
-        // iterating only through SepalLengthCm,SepalWidthCm, PetalLengthCm,PetalWidthCm row values
+        // iterating only through SepalLengthCm,SepalWidthCm, PetalLengthCm,PetalWidthCm
+        // row values
         for (int i = 1; i < fileContent.length; i++) {
             if (count == indexes[indexCount] - 1) {
                 if (indexCount < indexes.length) {
-                    //Sending the flower type to print as the heading
+                    // Sending the flower type to print as the heading
                     printHeading(fileContent[indexes[indexCount]][5]);
 
-                    //generating and writing the statistics into the file
+                    // generating and writing the statistics into the file
                     SepalLengthCm[(count - max)] = Float.parseFloat(fileContent[i][1]);
                     WriteContentToFile(SepalLengthCm, fileContent[0][1]);
 
@@ -124,7 +139,7 @@ public class lab7 {
 
                 }
             } else {
-                //extracting only the elements belonging to one class 
+                // extracting only the elements belonging to one class
                 SepalLengthCm[(count - max)] = Float.parseFloat(fileContent[i][1]);
                 SepalWidthCm[(count - max)] = Float.parseFloat(fileContent[i][2]);
                 PetalLengthCm[(count - max)] = Float.parseFloat(fileContent[i][3]);
@@ -301,8 +316,8 @@ public class lab7 {
             File file = new File("output.txt");
             FileWriter writer = new FileWriter(file, true);
 
-            writer.write(columnName + "\t\t" + mean(array) + "\t" + median(array) + "\t\t\t" + mode(array) + "\t\t\t"
-                    + MINMAX[0] + "\t\t\t" + MINMAX[1] + "\n");
+            writer.write(columnName + "\t\t" + mean(array) + "\t" + median(array) + "\t\t" + mode(array) + "\t\t"
+                    + MINMAX[0] + "\t\t" + MINMAX[1] + "\n");
             writer.close();
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
@@ -322,13 +337,14 @@ public class lab7 {
             FileWriter writer = new FileWriter(file, true);
 
             writer.write(
-                    "\n\n--------------------------------------------------------------------------------------\n");
+                    "\n\n-------------------------------------------------------------------------------------------\n");
             writer.write("                                 " + heading + "\n");
-            writer.write("--------------------------------------------------------------------------------------\n");
-            writer.write("\t\t\t\t\tMean\t\tMedian\t\tMode\t\tMin\t\tMax\n");
-            writer.write("--------------------------------------------------------------------------------------\n");
+            writer.write("-------------------------------------------------------------------------------------------\n");
+            writer.write("\t\t\tMean\t\tMedian\t\tMode\t\tMin\t\tMax\n");
+            writer.write("-------------------------------------------------------------------------------------------\n");
 
             writer.close();
+
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
