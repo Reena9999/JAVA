@@ -48,8 +48,9 @@ The contains four main functions:
 **FLOW CHART**    
 ![lab2 drawio](https://user-images.githubusercontent.com/118504536/219005942-5941a714-a15c-4926-ba6c-4e41dd24d9d5.png)  
 
-**SAMPLE OUTPUT**      
+**SAMPLE OUTPUT** 
 
+```
 Enter exit when cued to enter values to stop entering values in the array.    
    
 Enter a value: 1      
@@ -138,4 +139,5 @@ Enter
  
 ----------------------------      
             BYE!      
-----------------------------      
+---------------------------- 
+```
