@@ -5,7 +5,11 @@ public class lab7 {
 
     public static void main(String args[]) {
         
+<<<<<<< HEAD
         //reset the output file 
+=======
+        //rest the output file 
+>>>>>>> b09b9df785d10a59ba13c8ac38806e4a15c8e6fc
         try {
             File file = new File("output.txt");
             FileWriter writer = new FileWriter(file);
@@ -15,8 +19,12 @@ public class lab7 {
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
+<<<<<<< HEAD
 
 
+=======
+        
+>>>>>>> b09b9df785d10a59ba13c8ac38806e4a15c8e6fc
         int count = 0;
         // variable to store the number of rows and columns in the csv file
         int rows = 0, columns = 0;
