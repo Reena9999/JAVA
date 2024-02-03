@@ -1,4 +1,4 @@
-**QUESTION**  
+### PROBLEM STATEMENT  
 Create a student class, that will store the details of the Student  
 * Reg. No.  
 * Name  
@@ -11,7 +11,16 @@ The class will have a constructor to initialize the values of the Student and a 
 
 In the main-method class, create an array of Student Class to hold maximum details of 100 Students.  
 In the menu-driven program, the menu options will have  
+1. Add a student
+2. Adds the details of 1 student to the array of Student
+3. Search for a student
+3. Search for the details of a student from the array of Student [ Searching can be done with Name & Register Number]
+5. Display all students
+6. Displays the details of all students
+Extension: Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.
 
+### SOLUTION
+**DESCRIPTION**
 _**Add a student**_    
 Adds the details of 1 student to the array of Student  
 
