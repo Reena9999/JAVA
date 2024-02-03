@@ -1,4 +1,4 @@
-# QUESTION  
+# PROBLEM STATEMENT  
 Create a new folder in git named 'Lab 7' for the following question and solve the following: create a flowchart and document the results, constraints, etc., in the README.md file for the lab.  
 
 Given the famous iris dataset, find the 5-point summary [Mean, Median, Mode, Min, Max] for the attributes: SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm.  
@@ -7,7 +7,8 @@ Once the overall summary statistics have been calculated, identify the summary s
 
 Present your results in the appropriate format and write the results in a file.  
 
-# PROGRAM FLOW  
+# SOLUTION
+## PROGRAM DESCRIPTION
 The contents of csv file is already in a 2 dimensional format. Using this we first create a 2 dimensional array of string that contain the contents of the file as each of it's elements.  
 
 Once the 2D array is created, we extract each column seperately and generate the mean, median, mode, maximum and minimum value. These values are then written into a file.  
@@ -21,11 +22,11 @@ With knowledge about where to stop and start  for each class, we extract the col
   
 Lastly, read the contents of the file a print it on the terminal.  
 
-# FLOWCHART  
+## FLOWCHART  
 ![Blank diagram](https://user-images.githubusercontent.com/118504536/231861954-39474c5e-08ab-4801-ac5c-16e4d03d5798.png)
 
 
-# OUTPUT  
+## OUTPUT  
 Look at output.txt for the sample output of the program  
 
 ```
