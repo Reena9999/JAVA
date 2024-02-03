@@ -13,7 +13,7 @@ The program should have a minimum of 3 functions apart from the main function; e
 **PROGRAM PSEUDO CODE**     
 The contains four main functions:   
   
-*create a global variable 'length' that store the total number of enter elements   
+* create a global variable 'length' that store the total number of enter elements  
   
 *FUNCTION readArray()*:     
 &nbsp; * create an integer array of a large size  
