@@ -20,8 +20,8 @@ In the menu-driven program, the menu options will have
 Extension: Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.
 
 ### SOLUTION
-**DESCRIPTION**
-_**Add a student**_    
+**FUNTION DESCRIPTION**
+**Add a student**   
 Adds the details of 1 student to the array of Student  
 
 _**Search for a student**_   
