@@ -1,4 +1,4 @@
-**QUESTION**  
+### PROBLEM STATEMENT 
 Write a JAVA program that reads a file (text file) and finds the following details.  
 1. Vowels and their count. Eg: [a:100, e:45, I:55, ..]  
 2. Digits and their count. Eg: [0:1000, 1:10, 2:40, ...]  
@@ -16,6 +16,7 @@ Note:
 Additional Task [htmlFile.txt]:  
 You have been given an HTML file; from the HTML File, identify the Top categories, display it to the user, and write the content to the file.  
 
+### SOLUTION
 **FLOWCHART**  
 Main program flow:
 ![1](https://user-images.githubusercontent.com/118504536/228758688-abe76fb9-8191-429d-afa3-2e67f1605397.png)  
