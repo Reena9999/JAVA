@@ -1,4 +1,4 @@
-### PROBLEM STATEMENT  
+# PROBLEM STATEMENT  
 Create a student class, that will store the details of the Student  
 * Reg. No.  
 * Name  
@@ -19,8 +19,8 @@ In the menu-driven program, the menu options will have
 6. Displays the details of all students
 Extension: Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.
 
-### SOLUTION
-**FUNTION DESCRIPTION**:   
+# SOLUTION
+## FUNTION DESCRIPTION   
 _**Add a student**_   
 Adds the details of 1 student to the array of Student  
 
@@ -36,7 +36,7 @@ Note: Make use of functions to implement the menu options
 Extension (Optional):  
 Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.  
 
-**FLOWCHART**   
+## FLOWCHART   
 Main Flow of control  
 
 ![main](https://user-images.githubusercontent.com/118504536/225352002-c8e5f9e9-c7d8-4d58-8a7e-26a50a05456f.png)  
@@ -67,7 +67,7 @@ Validating Function:
 5. checkClass() represented as CC  
 ![checkClass](https://user-images.githubusercontent.com/118504536/225516148-2ac711a8-f67d-4350-902e-8c06d7dbf53f.png)
 
-**SAMPLE OUTPUT** 
+## SAMPLE OUTPUT
 ```
 =========================================================
                           WELCOME
