@@ -16,9 +16,9 @@ The contains four main functions:
 * create a global variable 'length' that store the total number of enter elements  
   
 *FUNCTION readArray()*:     
-&nbsp; * create an integer array of a large size  
+&nbsp; *  create an integer array of a large size  
 &nbsp; * create an infinte loop  
-&ensp; *read user input  
+&ensp; *  read user input  
 &ensp; * check if the input is equal to 'exit'.   
 &emsp; If it is:    
 &emsp; &emsp; -set 'length' as the total number of times you executed the infinte loop    
