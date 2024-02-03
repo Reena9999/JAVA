@@ -34,7 +34,7 @@ After the array is entered, you need to create a menu of items
 From the user-given array.
 The program should have a minimum of 3 functions apart from the main function; each of the functions implements the Mean, Median, and Mode computation by accepting the array user has entered as a parameter and returning the value as a result. From the main method, you will display the result.
 
-### LAB 4
+### LAB 4:
 Write a JAVA Menu driven program that does the following:
 You can ONLY have the below variables as global variables
 * Account Number
@@ -52,7 +52,7 @@ Your menu will have the following operations once the customer is created:
 3. To print the transactions
 4. To print account summary
 
-### LAB 5
+### LAB 5:
 Create a student class, that will store the details of the Student
 * Reg. No.
 * Name
@@ -74,7 +74,7 @@ In the menu-driven program, the menu options will have
 Extension:
 Save the details of each student in a file, with his name with the help of a method in student class, when the student is getting created.
 
-### LAB 6
+### LAB 6:
 Write a JAVA program that reads a file (text file) and finds the following details.
 1. Vowels and their count. Eg: [a:100, e:45, I:55, ..]
 2. Digits and their count. Eg: [0:1000, 1:10, 2:40, ...]
@@ -89,7 +89,7 @@ Pass the file content to the functions and return the values accordingly. **No G
 
 Additionaly, You have been given an HTML file; from the HTML File, identify the Top categories, display it to the user, and write the content to the file.
 
-### LAB 7
+### LAB 7:
 Create a new folder in git named 'Lab 7' for the following question and solve the following: create a flowchart and document the results, constraints, etc., in the README.md file for the lab.
 
 Given the famous iris dataset, find the 5-point summary [Mean, Median, Mode, Min, Max] for the attributes: SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm.
