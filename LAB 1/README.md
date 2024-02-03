@@ -6,7 +6,7 @@ Assume that you can divide the states among India into four different regions (N
 ### SOLUTION
 
 **FLOW CHART**  
-The flow chart below describe the soltuion step-by-step.
+The flow chart below describes the solution step-by-step.
 ![Blank diagram (1)](https://github.com/Reena9999/22122144_MDS273L_JAVA/assets/118504536/071e38ae-a7e1-494b-8fc5-96da04818421)
 
 **SAMPLE OUTPUT**    
